@@ -55,20 +55,20 @@ getProductById(id) {
       ...updatedFields
     }; // Actualizamos los campos del producto con los valores proporcionados en `updatedFields`
     this.saveProducts(); // Guardamos los productos actualizados en el archivo
-    return true
+    return true; // Indicamos que la actualización se realizó con éxito
     } else {
-      return false;
+      return false; // Indicamos que no se encontró el producto para actualizar
     }
   }
 
   deleteProduct(id) {
-    const productIndex = this.products.findIndex((product) => product.id === id);
-    if (productIndex !== -1) {
-      this.products.splice(productIndex, 1);
-      this.saveProducts();
-      return true;
+    const productIndex = this.products.findIndex((product) => product.id === id); // Buscamos el índice del producto a eliminar en el arreglo de productos
+    if (productIndex !== -1) { // Si encontramos el producto en el arreglo
+      this.products.splice(productIndex, 1); // Eliminamos el producto del arreglo
+      this.saveProducts(); // Guardamos los productos actualizados en el archivo
+      return true; // Indicamos que la eliminación se realizó con éxito
     } else {
-      return false;
+      return false; // Indicamos que no se encontró el producto para eliminar
     }
   }
 }
@@ -77,4 +77,4 @@ getProductById(id) {
 const filePath = 'products.json';
 const productos = new ProductManager(filePath);
 
-console.log(productos.getProduct)
+console.log(productos.getProduct());
