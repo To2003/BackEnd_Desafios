@@ -1,6 +1,8 @@
 // Importación del módulo ProductManager desde el archivo "../managers/ProductManager.js"
 import ProductManager from "../managers/ProductManager.js";
 
+
+
 // Creación de una instancia de ProductManager con los archivos de datos 'products.json' y 'count.txt'
 const productManager = new ProductManager('./desafio03/data/products.json', './desafio03/data/count.txt');
 
