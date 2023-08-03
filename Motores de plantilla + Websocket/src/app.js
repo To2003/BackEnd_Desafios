@@ -4,6 +4,7 @@ import http from 'http';
 import { Server } from 'socket.io';
 import handlebars from 'express-handlebars';
 
+
 // Importación de los enrutadores definidos
 import userRouter from './routes/product.routes.js';
 import cartsRouter from './routes/cart.routes.js';
@@ -12,7 +13,7 @@ import { Socket } from 'dgram';
 // Creación de la instancia de la aplicación Express
 const app = express();
 
-// **************
+// Server
 const server = http.createServer(app);
 const io = new Server(server);
 
