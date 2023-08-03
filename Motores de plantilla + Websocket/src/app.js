@@ -2,7 +2,7 @@
 import express from 'express';
 import http from 'http';
 import { Server } from 'socket.io';
-import exphbs from 'express-handlebars';
+import handlebars from 'express-handlebars';
 
 // Importación de los enrutadores definidos
 import userRouter from './routes/product.routes.js';
@@ -58,7 +58,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // Configura el motor de plantillas Handlebars
-app.engine('handlebars', exphbs());
+app.engine('handlebars', handlebars.engine());
 app.set('view engine', 'handlebars');
 
 // Configura el servidor para servir archivos estáticos
