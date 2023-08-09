@@ -68,6 +68,7 @@ app.use(express.static('public'));
 // Uso del enrutador '/api/product' definido en 'userRouter' para todas las rutas que comiencen con '/api/product'
 app.use('/api/product', userRouter);
 app.use('/api/carts', cartsRouter);
+app.use('/', viewRouter)
 
 
 // Ruta de inicio para la raíz del servidor, devuelve 'Hola Mundo!!' como respuesta
