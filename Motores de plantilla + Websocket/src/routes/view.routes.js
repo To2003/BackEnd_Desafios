@@ -1,7 +1,6 @@
 import express from 'express';
 import ProductManager from '../managers/ProductManager';
-import { __dirname } from '../utils/dirname';
-import { Router } from "express";
+import { __dirname } from '../utils/dirname'; 
 
 const viewRouter = express.Router();
 

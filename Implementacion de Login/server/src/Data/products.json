@@ -1,0 +1,41 @@
+[
+    {
+        "title": "Iphone 11 Pro",
+        "description": "Celular Iphone Pro 11 256gb de RAM.",
+        "code": "IP1-2019",
+        "price": 31000,
+        "status": true,
+        "category": "Celulares",
+        "thumbnails": [],
+        "id": 1
+    },
+    {
+        "title": "Airpods",
+        "description": "Auriculares Airpods inalambricos.",
+        "code": "AIP-2023",
+        "price": 18000,
+        "status": true,
+        "category": "Auriculares",
+        "id": 2
+    },
+    {
+        "title": "Iphone 14 Pro Max",
+        "description": "Celular Iphone 14 Pro Max ultima edicion con 512gb de RAM.",
+        "code": "IP1-2019",
+        "price": 20000,
+        "status": true,
+        "category": "Videojuegos",
+        "thumbnails": [],
+        "id": 3
+    },
+    {
+        "title": "Auriculares Earphone",
+        "description": "Auriculares con entrada Lighting Control por cable con microfono.",
+        "code": "AIP-2019",
+        "price": 19,
+        "status": true,
+        "category": "Auriculares",
+        "thumbnails": [],
+        "id": 4
+    }
+]
