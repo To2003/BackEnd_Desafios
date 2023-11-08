@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Iphone 12",
+    "description": "12 Pro Max",
+    "price": 10000,
+    "thumbnail": "https://www.apple.com/la/newsroom/2020/10/apple-introduces-iphone-12-pro-and-iphone-12-pro-max-with-5g/",
+    "code": "123ABC",
+    "stock": 5
+  },
+  {
+    "id": 2,
+    "title": "Iphone 13",
+    "description": "13 Pro Max",
+    "price": 15000,
+    "thumbnail": "https://www.apple.com/la/newsroom/2020/10/apple-introduces-iphone-12-pro-and-iphone-12-pro-max-with-5g/",
+    "code": "987CBA",
+    "stock": 12
+  },
+  {
+    "id": 3,
+    "title": "Tablet",
+    "description": "Ipad ultima Gen",
+    "price": 20000,
+    "thumbnail": "https://www.apple.com/la/newsroom/2020/10/apple-introduces-iphone-12-pro-and-iphone-12-pro-max-with-5g/",
+    "code": "YYY123",
+    "stock": 16
+  }
+]
